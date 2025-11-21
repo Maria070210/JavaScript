@@ -16,3 +16,9 @@ git commit -m "comentario de lo que has hecho"
 
 git push para subirlo al repositorio pero salta un mensaje y hay que poner lo que nos sale
 git push --set-upstream origin master y se verá en el repositorio subido
+
+Ya lo único que hay que hacer cada vez que modificas o añadas algo es:
+git add . 
+git commit -m "comentario de lo que has hecho"
+git push
+Y ya estaría
