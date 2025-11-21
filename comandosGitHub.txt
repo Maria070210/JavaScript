@@ -20,5 +20,6 @@ git push --set-upstream origin master y se verá en el repositorio subido
 Ya lo único que hay que hacer cada vez que modificas o añadas algo es:
 git add . 
 git commit -m "comentario de lo que has hecho"
+git status
 git push
 Y ya estaría
