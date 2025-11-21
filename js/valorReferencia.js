@@ -43,3 +43,11 @@ const otrasFrutas3 = frutas.slice(); // Hacen lo mismo
 otrasFrutas2.push('Melon');
 // Añade melon solo a otrasFrutas2
 
+// if ( dia === 6)
+
+// const hoy = new Date();
+// let dia = hoy.getDay();
+
+// console.log(true); true
+// console.log(!true); false
+// console.log(!false); true
