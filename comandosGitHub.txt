@@ -13,3 +13,6 @@ git status ayuda a identificar los cambios que están preparados para el commit,
 los cambios que no están preparados y los archivos no rastreados. Saber si tenemos errores
 
 git commit -m "comentario de lo que has hecho"
+
+git push para subirlo al repositorio pero salta un mensaje y hay que poner lo que nos sale
+git push --set-upstream origin master y se verá en el repositorio subido
