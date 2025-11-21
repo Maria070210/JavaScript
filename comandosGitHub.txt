@@ -1,0 +1,15 @@
+Abrimos una terminal en Visual Studio Code
+
+git init para iniciar GitHub
+
+Al crear un repositorio nuevo te sale una serie de comandos ponemos el siguiente:
+git remote add origin https://github.com/Maria070210/JavaScript.git
+para que se enlace con el repositorio de GitHub
+
+git add . para añadir todos los archivos que tienes en tu carpeta de trabajo
+o usar git add index.html para que añada un archivo en concreto
+
+git status ayuda a identificar los cambios que están preparados para el commit, 
+los cambios que no están preparados y los archivos no rastreados. Saber si tenemos errores
+
+git commit -m "comentario de lo que has hecho"
