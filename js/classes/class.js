@@ -1,5 +1,15 @@
 class Persona {
 
+    static _conteo = 0;
+    static get getConteo() {
+        return Persona._conteo + 'instancias';
+    }
+
+    static mensaje() {
+        // Si haces referencia a los valores de nombre, codigo y eso, no tendran valor
+
+    }
+
     nombre = '';
     codigo = '';
     frase = '';
@@ -10,11 +20,17 @@ class Persona {
         this.nombre = nombre;
         this.codigo = codigo;
         this.frase = frase;
+
+        Persona._conteo++;
     }
 
     set setComidaFavorita(comida) {
         // Solo recibe un argumento
-        this.comida = comida;
+        this.comida = comida.toUpperCase(); // Para poner en mayúsculas
+    }
+
+    get getComidaFavorita() {
+        return`La comida favorita de ${this.nombre} es ${this.comida}`;
     }
 
     quienSoy() {
@@ -35,3 +51,9 @@ console.log(jhope);
 
 jimin.miFrase();
 jhope.miFrase();
+
+jimin.setComidaFavorita = 'Pizza carbonara';
+
+console.log('Conteo estático', Persona._conteo);
+console.log(Persona.getConteo);
+Persona.mensaje();
