@@ -51,3 +51,17 @@ otrasFrutas2.push('Melon');
 // console.log(true); true
 // console.log(!true); false
 // console.log(!false); true
+/*
+cont heroes = ['Batman', 'Superman', 'Mujer maravilla', 'Aquaman']
+for(let i = 0; i < heroes.lenght; i++) {
+    console.log(heroes[i]);
+}
+for(let i in heroes){
+    console.log(heroes[i]);
+}
+Hacen lo mismo
+for(let heroe of heroes){
+Se pone el nombre en singular de la lista a recorrer
+    console.log(heroe);
+}
+*/
